@@ -6,39 +6,17 @@
  *  tree.
  */
 
-.a-upload {
-  padding: 4px 10px;
-  height: 20px;
-  line-height: 20px;
-  position: relative;
-  cursor: pointer;
-  color: #fff;
-  background: #d84a38;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  overflow: hidden;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  width: 100px;
-  font-size: 14px;
-}
-
-.a-upload  input {
-  position: absolute;
-  font-size: 100px;
-  right: 0;
-  top: 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  cursor: pointer
-}
-
-.a-upload:hover {
-  color: #444;
-  background: #eee;
-  border-color: #ccc;
-  text-decoration: none
+#uploadFile{
+  background-color: #d84a38;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  margin: -1px 1em 1em 0;
+  padding: 0.5em 0.7em 0.6em 0.7em;
+  width: 70px;
+  height: 19px;
 }
 
 button {
