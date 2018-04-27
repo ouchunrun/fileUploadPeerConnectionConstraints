@@ -1,0 +1,142 @@
+/*
+ *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+ */
+
+.a-upload {
+  padding: 4px 10px;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  background: #d84a38;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 100px;
+  font-size: 14px;
+}
+
+.a-upload  input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  cursor: pointer
+}
+
+.a-upload:hover {
+  color: #444;
+  background: #eee;
+  border-color: #ccc;
+  text-decoration: none
+}
+
+button {
+  margin: 0 20px 25px 0;
+  vertical-align: top;
+  width: 134px;
+}
+div#getUserMedia {
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid #eee;
+}
+section#statistics div {
+  display: inline-block;
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  vertical-align: top;
+  width: 308px;
+}
+section#statistics div#senderStats {
+  margin: 0 20px 0 0;
+}
+section#stats div {
+  display: inline-block;
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  vertical-align: top;
+  width: 308px;
+}
+section#stats div#txStats {
+  margin: 0 20px 0 0;
+}
+
+section#constraints > div {
+  margin: 0 0 20px 0;
+}
+div.input {
+  display: inline-block;
+  margin: 0 20px 0 0;
+  vertical-align: top;
+  width: 25em;
+}
+div.input > div {
+  margin: 0 0 20px 0;
+  vertical-align: top;
+}
+div.output {
+  background-color: #eee;
+  display: inline-block;
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  font-size: 0.9em;
+  padding: 10px 10px 10px 25px;
+  position: relative;
+  top: 10px;
+  white-space: pre;
+  width: 30em;
+}
+section#video > div {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  vertical-align: top;
+  width: calc(50% - 22px);
+}
+section#video > div div {
+  font-size: 0.9em;
+  margin: 0 0 0.5em 0;
+  width:  320px;
+}
+h2 {
+  margin: 0 0 1em 0;
+}
+section#constraints label {
+  display: inline-block;
+  width: 12em;
+}
+section {
+  margin: 0 0 20px 0;
+  padding: 0 0 15px 0;
+}
+
+section#video {
+  width: calc(100% + 20px);
+}
+video {
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 720px) {
+  button {
+    font-weight: 500;
+    height: 56px;
+    line-height: 1.3em;
+    width: 90px;
+  }
+  div#getUserMedia {
+    padding: 0 0 40px 0;
+  }
+  section#statistics div {
+    width: calc(50% - 14px);
+  }
+  video {
+    height: 96px;
+  }
+}
